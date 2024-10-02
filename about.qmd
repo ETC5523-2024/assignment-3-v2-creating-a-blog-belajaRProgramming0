@@ -6,8 +6,17 @@ about:
   links:
     - icon: github
       text: Github
-      href: https://github.com/etc5523-2022
-
+      href: https://github.com/belajaRProgramming0?tab=repositories
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/rafli-ramdani-267279167/
+    - icon: instagram
+      text: Instagram
+      href: https://instagram.com/rramdani20
+    - text: E-mail
+      href: rram0049@student.monash.edu
 ---
 
-This is a blog template for the ETC5523 Communicating with Data assessment at Monash University.
+Hi, my name is Rafli Ramdani, a student of **Master of Business Analytics** at Monash University, Melbourne. The blog is initially created because of my assignment in _Communicating With Data_ and now acting as my data analysis project outputs. Feel free to visit my Github page, connect with me through social media platforms and collaborate in future projects, enjoy!!
+
+

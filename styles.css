@@ -2,3 +2,24 @@
 .navbar-dark, .quarto-title-banner {
   background-color: #006DAE;
 }
+
+.custom-footer {
+  background-color: #343a40; /* Background color */
+  color: white; /* Text color */
+  padding: 20px; /* Padding inside the footer */
+  display: flex; /* Use flexbox for alignment */
+  justify-content: center; /* Center items horizontally */
+  gap: 20px; /* Space between the two items */
+  text-align: center; /* Center text inside each item */
+  border-top: 5px solid #007bff; /* Optional border at the top */
+  width: 100%; /* Full width */
+  position: fixed; /* Stick to the bottom */
+  bottom: 0; /* Position at the bottom */
+  left: 0; /* Full width alignment */
+  right: 0; /* Full width alignment */
+  box-sizing: border-box; /* Ensure padding is included in width calculation */
+}
+
+.custom-footer p {
+  margin: 0; /* Remove margin between paragraphs */
+}
