@@ -1,7 +1,7 @@
 ---
 title: "The Pattern of Olympic Athletes' Peak and Average Age by Primary Attributes"
 description: |
-  An analysis on the mortality rate for each caused of deaths category.
+  An analysis on relationship between sports' main attribute requirement with their athletes' peak performance age.
 date: "2024-09-02"
 categories: [olympic, sport, R]
 format:
