@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2024-09-02">
+<meta name="description" content="An analysis on relationship between sports’ main attribute requirement with their athletes’ peak performance age.">
 
-<title>Rafli’s Data Chronicles</title>
+<title>Rafli’s Data Chronicles - The Pattern of Olympic Athletes’ Peak and Average Age by Primary Attributes</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +25,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,83 +68,13 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
+<script src="../../site_libs/kePrint-0.0.1/kePrint.js"></script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
+<link href="../../site_libs/lightable-0.0.1/lightable.css" rel="stylesheet">
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
 
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
 
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-<style>
-
-      .quarto-title-block .quarto-title-banner h1,
-      .quarto-title-block .quarto-title-banner h2,
-      .quarto-title-block .quarto-title-banner h3,
-      .quarto-title-block .quarto-title-banner h4,
-      .quarto-title-block .quarto-title-banner h5,
-      .quarto-title-block .quarto-title-banner h6
-      {
-        color: transparent;
-      }
-
-      .quarto-title-block .quarto-title-banner {
-        color: transparent;
-      }
-</style>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -154,10 +84,10 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./rlogofix.jpg" alt="" class="navbar-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../rlogofix.jpg" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Rafli’s Data Chronicles</span>
     </a>
   </div>
@@ -168,21 +98,21 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item compact">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text"></span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html"> 
+    <a class="nav-link" href="../../blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
@@ -200,83 +130,242 @@ window.Quarto = {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Rafli’s Data Chronicles</h1>
-                      </div>
+    <div class="quarto-title column-body">
+      <h1 class="title">The Pattern of Olympic Athletes’ Peak and Average Age by Primary Attributes</h1>
+                  <div>
+        <div class="description">
+          <p>An analysis on relationship between sports’ main attribute requirement with their athletes’ peak performance age.</p>
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">olympic</div>
+                <div class="quarto-category">sport</div>
+                <div class="quarto-category">R</div>
+              </div>
+                  </div>
   </div>
     
   
-  <div class="quarto-title-meta column-page-left">
+  <div class="quarto-title-meta">
 
       
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">September 2, 2024</p>
+      </div>
+    </div>
     
       
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(1)</span></div><div class="category" data-category="olympic">olympic <span class="quarto-category-count">(1)</span></div><div class="category" data-category="sport">sport <span class="quarto-category-count">(1)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#executive-summary" id="toc-executive-summary" class="nav-link active" data-scroll-target="#executive-summary">Executive Summary</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#methods" id="toc-methods" class="nav-link" data-scroll-target="#methods">Methods</a></li>
+  <li><a href="#results-and-analysis" id="toc-results-and-analysis" class="nav-link" data-scroll-target="#results-and-analysis">Results and Analysis</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
-<section id="featured-posts" class="level1">
-<h1><u>Featured Posts:</u></h1>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-veddriq" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-veddriq-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/veddriq.png" class="img-fluid figure-img" width="326">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-veddriq-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Men’s Speed Climbing Gold Medalist of Olympics 2024, Veddriq Leonardo at <em>Le Bourget</em> Climbing Venue, Paris, France,(8/8/2024). [ANTARA FOTO/Wahyu Putro A]
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<section id="executive-summary" class="level1">
+<h1>Executive Summary</h1>
+<p>This report analyses the relationship between the peak and average ages of Olympic athletes across various sports, categorised by primary attributes like <strong>flexibility</strong>, <strong>endurance</strong>, <strong>analytic aptitude</strong> and more. Using data from ESPN’s toughest sports rankings and Olympic data spanning 1948 to 2016, the findings reveal how these attributes influence athletes’ career longevity. Specifically, sports relying on flexibility tend to see peak performances in athletes in their early 20s, whereas sports requiring strong analytic aptitude have athletes peaking closer to their 30s. These insights are valuable for optimising training strategies and athlete development programs for both aspiring Olympians and sports stakeholders.</p>
+</section>
+<section id="introduction" class="level1">
+<h1>Introduction</h1>
+<p>The Olympic Games highlight athletes’ peak physical and mental performances across various disciplines. This report examines patterns in the peak and average ages of Olympians, exploring how attributes like flexibility, nerve, endurance, and analytic aptitude shape these trends. Understanding these patterns can help refine coaching strategies, optimise training programs, and extend athletes’ careers. Grouping sports by their primary attributes offers new insights into how both physical and mental demands influence career trajectories.</p>
+<p>The age at which athletes peak varies greatly depending on the sport and its required attributes. This knowledge is valuable for aspiring Olympians and those guiding athletes, helping them identify when to begin focused training and prepare for competition. It also aids coaches and trainers in designing more effective regimens, ensuring athletes reach their full potential at the optimal time.</p>
+</section>
+<section id="methods" class="level1">
+<h1>Methods</h1>
+<p>The analysis combines two datasets:</p>
+<ol type="1">
+<li><p>ESPN Toughest Sports: This dataset ranks 60 sports across 10 skill categories: <strong>endurance (END)</strong>, <strong>strength (STR)</strong>, <strong>power (PWR)</strong>, <strong>speed (SPD)</strong>, <strong>agility (AGI)</strong>, <strong>flexibility (FLX)</strong>, <strong>nerve (NER)</strong>, <strong>durability (DUR)</strong>, <strong>hand-eye coordination (HAN)</strong>, <strong>analytic aptitude (ANA)</strong>. Each category reflects the unique demands placed on athletes in their respective sports, allowing for a comprehensive understanding of how these attributes correlate with age.</p></li>
+<li><p>Olympic Data: This dataset is collected from Kaggle, from user Bhanupratap Biswas, includes information on every athlete who competed in the Olympics from the 1896 edition to the 2016 edition summer and winter. The analysis focuses on data from 1948-2016 to align with the era of the <em>modern olympics games.</em></p></li>
+<li><p>Data Processing Steps: Read raw dataset; cleaning symbols, unused variable, name manipulation; join the two data; plotting.</p></li>
+</ol>
+<p><em>Note: Complete data dictionary is available in Appendix A, involving all variables.</em></p>
+</section>
+<section id="results-and-analysis" class="level1">
+<h1>Results and Analysis</h1>
+<p>The way we want to extract information in this report is by using two plots, one for the overall average age of each sports attrbute and following by showing the boxplot to see the distribution of each sport category faceted by sport attribute, we will analyse the trend and dig deeper into some sports category with interesting pattern.</p>
+<div class="cell">
+<div id="tbl-avgage" class="cell quarto-float anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-avgage-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: Average Age of Athletes per Sports’ Primary Attribute.
+</figcaption>
+<div aria-describedby="tbl-avgage-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell-output-display">
+<div>
+<div class="table-responsive">
+<table class="table table-striped table-hover table-condensed do-not-create-environment cell table-sm small" data-quarto-postprocess="true">
+<caption>Average Age of Athletes per Sports' Primary Attribute.</caption>
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th" style="text-align: center; font-weight: bold; color: white !important; background-color: rgba(76, 175, 80, 255) !important;">Primary_Attribute</th>
+<th data-quarto-table-cell-role="th" style="text-align: center; font-weight: bold; color: white !important; background-color: rgba(76, 175, 80, 255) !important;">Attribute_Full</th>
+<th data-quarto-table-cell-role="th" style="text-align: center; font-weight: bold; color: white !important; background-color: rgba(76, 175, 80, 255) !important;">Average_Age_years</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center; font-weight: bold;">ANA</td>
+<td style="text-align: center;">Analytic Aptitude</td>
+<td style="text-align: center;">32</td>
+</tr>
+<tr class="even">
+<td style="text-align: center; font-weight: bold;">HAN</td>
+<td style="text-align: center;">Hand-eye Coordination</td>
+<td style="text-align: center;">28</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center; font-weight: bold;">DUR</td>
+<td style="text-align: center;">Durability</td>
+<td style="text-align: center;">26</td>
+</tr>
+<tr class="even">
+<td style="text-align: center; font-weight: bold;">NER</td>
+<td style="text-align: center;">Nerve</td>
+<td style="text-align: center;">26</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center; font-weight: bold;">STR</td>
+<td style="text-align: center;">Strength</td>
+<td style="text-align: center;">26</td>
+</tr>
+<tr class="even">
+<td style="text-align: center; font-weight: bold;">END</td>
+<td style="text-align: center;">Endurance</td>
+<td style="text-align: center;">25</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center; font-weight: bold;">PWR</td>
+<td style="text-align: center;">Power</td>
+<td style="text-align: center;">25</td>
+</tr>
+<tr class="even">
+<td style="text-align: center; font-weight: bold;">AGI</td>
+<td style="text-align: center;">Agility</td>
+<td style="text-align: center;">24</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center; font-weight: bold;">SPD</td>
+<td style="text-align: center;">Speed</td>
+<td style="text-align: center;">23</td>
+</tr>
+<tr class="even">
+<td style="text-align: center; font-weight: bold;">FLX</td>
+<td style="text-align: center;">Flexibility</td>
+<td style="text-align: center;">22</td>
+</tr>
+</tbody>
+</table>
+</div>
 
+
+</div>
+</div>
+</div>
+</figure>
+</div>
+</div>
+<p><a href="#tbl-avgage" class="quarto-xref">Table&nbsp;1</a> shows the average age of athletes per sports’ primary attribute. Sports requiring <em>Flexibilty</em> tend to have participant of the averaging at the early 20s, while those requiring <em>Analytical Aptitude,</em> reached 32 years old.</p>
+<p>In order to get more insight, boxplot is choosen due to its ability to contain information such as Median, Average, Inter quartile range, and outliers. These features allows us to see the Peak Age and Career longevity of each sports.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-boxplottop1attr" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-boxplottop1attr-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="sport_files/figure-html/fig-boxplottop1attr-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-boxplottop1attr-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Age Distribution by Top Attributes (Endurance, Power, Speed, Agility).
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-boxplottop1attr2" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-boxplottop1attr2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="sport_files/figure-html/fig-boxplottop1attr2-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-boxplottop1attr2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: Age Distribution by Top Attributes (Flexibility, Nerve, Handling, Analytics).
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-boxplottop1attr3" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-boxplottop1attr3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="sport_files/figure-html/fig-boxplottop1attr3-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-boxplottop1attr3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4: Age Distribution by Top Attributes (Strength and Durability).
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>The analysis further reveals that sports relying on endurance and nerve also see higher average ages, indicating longer careers for athletes in these disciplines.</p>
+<p>Athletics, even though categorised as one by the olympic body (IOC), in reality has different primary attribute demands according to the events. For example, <em>Athletics_LongDistance</em> in <a href="#fig-boxplottop1attr" class="quarto-xref">Figure&nbsp;2</a> that includes sport disciplines of more than 3.000 m distance requires <strong>endurance</strong> the most, in contrast to majority of other athletics category require <strong>power</strong> the most.</p>
+<p>Looking at each primary attribute categories, interestingly, <em>Shooting</em> and <em>Equestrianism</em> on <a href="#fig-boxplottop1attr2" class="quarto-xref">Figure&nbsp;3</a> has the age distribution much older than its friend in the same category, reaching 30s. This means that to become an athlete of the</p>
+<p>Sports that primarily rely on Analytics skill, tend to have longer career span, of more than 10 years. This number is way above average of 4-5 years in other categories (seen on three figures), excluding sports with main attribute of <em>Handling.</em></p>
+</section>
+<section id="conclusion" class="level1">
+<h1>Conclusion</h1>
+<p>The analysis reveals distinct age patterns among Olympic athletes, with younger athletes excelling in flexibility-driven sports and older athletes performing better in analytical and nerve-based disciplines. By examining data from the ESPN Toughest Sports rankings and Olympic data from 1948 to 2016, we can appreciate the diverse demands of different sports and the unique career trajectories of Olympic athletes. The analysis of peak and average ages further highlights how the primary attributes required for success—such as flexibility, nerve, and analytic aptitude—shape these patterns, with younger athletes dominating flexibility-based sports and older athletes excelling in more mentally demanding disciplines.</p>
+<p>These insights underscore the need for tailored training programs that align with athletes’ physiological development and the specific demands of their sports, thereby enhancing performance and extending athletic careers. By recognizing these patterns, coaches, trainers, and other stakeholders in the sports community can better support athletes’ development, ensuring that they reach their full potential at the right time. Career longevity is also an important consideration when selecting which sports to pursue, and understanding these patterns helps optimize training strategies and career planning for all involved in an athlete’s journey.</p>
+<div style="page-break-after: always;"></div>
+</section>
+<section id="references" class="level1">
+<h1>References</h1>
+<p>ESPN. (2021). Degree of difficulty: Ranking the toughest sports. ESPN. Retrieved from <a href="https://www.espn.com/espn/page2/sportSkills">https://www.espn.com/espn/page2/sportSkills</a></p>
+<p>De Bosscher, V., Descheemaeker, K., &amp; Shibli, S. (2023). Starting and specialisation ages of elite athletes across Olympic sports: An international cross-sectional study. European Journal of Sport Sciences. <a href="https://doi.org/10.24018/ejsport.2023.2.5.100">https://doi.org/10.24018/ejsport.2023.2.5.100</a></p>
+<p>Longo, A. F., Siffredi, C. R., Cardey, M. L., Aquilino, G. D., &amp; Lentini, N. A. (2020). Age of peak performance in Olympic sports: A comparative research among disciplines. Journal of Sports Sciences, 11(1), 141-152. <a href="https://doi.org/10.14198/jhse.2016.111.03">https://doi.org/10.14198/jhse.2016.111.03</a></p>
 
 
 </section>
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="olympic,sport,R" data-listing-date-sort="1725199200000" data-listing-file-modified-sort="1727929470737" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="16" data-listing-word-count-sort="3130">
-<div class="thumbnail">
-<p><a href="./posts/welcome/sport.html" class="no-external"></a></p><a href="./posts/welcome/sport.html" class="no-external">
-<p class="card-img-top"><img src="posts\welcome\images\veddriq.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/welcome/sport.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/welcome/sport.html" class="no-external">The Pattern of Olympic Athletes’ Peak and Average Age by Primary Attributes</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/welcome/sport.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('olympic'); return false;">
-olympic
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('sport'); return false;">
-sport
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
-R
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/welcome/sport.html" class="no-external">An analysis on relationship between sports’ main attribute requirement with their athletes’ peak performance age. </a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/welcome/sport.html" class="no-external">
-<div class="listing-date">
-Sep 2, 2024
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <footer class="custom-footer">
 
   <p>© 2024 Rafli Ramdani</p>

@@ -11,6 +11,7 @@ format:
     fig-align: center
     number-sections: false
 ---
+
 ```{r, echo=FALSE}
 knitr::opts_chunk$set(
   echo = FALSE,   # Hide the code in all chunks
@@ -19,7 +20,20 @@ knitr::opts_chunk$set(
   warning = FALSE   # Hide warnings
 )
 
+# YAML tambahin option biar ganti warna title, kasih highlight, kurangin opacity banner nya.
+
 ```
+
+```{r}
+#| label: fig-veddriq
+#| fig-cap: Men's Speed Climbing Gold Medalist of Olympics 2024, Veddriq Leonardo at _Le Bourget_ Climbing Venue, Paris, France, (8/8/2024). [ANTARA FOTO/Wahyu Putro A]
+
+library(knitr)
+knitr::include_graphics("images/veddriq.png") #tambahin option biar penuh layar
+
+```
+
+
 # Executive Summary
 
 This report analyses the relationship between the peak and average ages of Olympic athletes across various sports, categorised by primary attributes like **flexibility**, **endurance**, **analytic aptitude** and more. Using data from ESPN’s toughest sports rankings and Olympic data spanning 1948 to 2016, the findings reveal how these attributes influence athletes’ career longevity. Specifically, sports relying on flexibility tend to see peak performances in athletes in their early 20s, whereas sports requiring strong analytic aptitude have athletes peaking closer to their 30s. These insights are valuable for optimising training strategies and athlete development programs for both aspiring Olympians and sports stakeholders.

@@ -2,7 +2,19 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/welcome/sport.html"
+    ]
+  },
+  {
+    "listing": "/homie.html",
+    "items": [
       "/posts/welcome/index.html"
+    ]
+  },
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/posts/welcome/sport.html"
     ]
   }
 ]

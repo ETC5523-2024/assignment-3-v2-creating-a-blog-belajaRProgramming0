@@ -1,5 +1,5 @@
 ---
-title: "Rafli's Data Chronicles"
+title: "ETC5523 Blog Assessment"
 listing:
   contents: posts
   sort: "date desc"
@@ -9,12 +9,5 @@ listing:
   filter-ui: false
 page-layout: full
 title-block-banner: true
-title-block-banner-image: profile.jpg
-title-block-banner-color: "transparent"
 ---
-
-
-# <u>Featured Posts:</u>
-
-
 

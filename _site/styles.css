@@ -1,7 +1,20 @@
 /* css styles */
 .navbar-dark, .quarto-title-banner {
-  background-color: #006DAE;
+  background-color: transparent !important;  /* Makes the background transparent */
+  background-image: url('monash_university_cover.jpg');  /* Sets your image */
+  background-size: cover;  /* Ensures the image covers the whole area */
+
+  background-position: center;  /* Centers the image */
 }
+
+.quarto-title-banner .title {
+  font-family: 'Roboto', sans-serif !important;
+}
+
+h1, .quarto-title {
+  font-family: 'Roboto', sans-serif;
+}
+
 
 .custom-footer {
   background-color: #343a40; /* Background color */
@@ -23,3 +36,4 @@
 .custom-footer p {
   margin: 0; /* Remove margin between paragraphs */
 }
+
