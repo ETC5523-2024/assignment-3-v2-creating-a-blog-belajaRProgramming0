@@ -14,7 +14,7 @@ about:
       text: Instagram
       href: https://instagram.com/rramdani20
     - text: E-mail
-      href: rram0049@student.monash.edu
+      href: mailto:rram0049@student.monash.edu
 ---
 
 Hi, my name is Rafli Ramdani, a student of **Master of Business Analytics** at Monash University, Melbourne. The blog is initially created because of my assignment in _Communicating With Data_ and now acting as my data analysis project outputs. Feel free to visit my Github page, connect with me through social media platforms and collaborate in future projects, enjoy!!

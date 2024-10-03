@@ -19,6 +19,8 @@ format:
   html:
     theme: journal
     css: styles.css
+    include-in-header: _fonts.Rhtml
     include-after-body: _footer.Rhtml
+
 
 

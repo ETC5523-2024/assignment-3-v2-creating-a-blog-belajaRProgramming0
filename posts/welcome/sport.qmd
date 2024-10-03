@@ -2,8 +2,9 @@
 title: "The Pattern of Olympic Athletes' Peak and Average Age by Primary Attributes"
 description: |
   An analysis on relationship between sports' main attribute requirement with their athletes' peak performance age.
-date: "2024-09-02"
+date: "2024-09-04"
 categories: [olympic, sport, R]
+title-block-banner: false
 format:
   html:
     toc: true
@@ -24,14 +25,8 @@ knitr::opts_chunk$set(
 
 ```
 
-```{r}
-#| label: fig-veddriq
-#| fig-cap: Men's Speed Climbing Gold Medalist of Olympics 2024, Veddriq Leonardo at _Le Bourget_ Climbing Venue, Paris, France, (8/8/2024). [ANTARA FOTO/Wahyu Putro A]
 
-library(knitr)
-knitr::include_graphics("images/veddriq.png") #tambahin option biar penuh layar
-
-```
+![Men's Speed Climbing Gold Medalist of Olympics 2024, Veddriq Leonardo, (8/8/2024). ANTARA FOTO/Wahyu Putro A.](images/veddriq.png){width=800, height=400}
 
 
 # Executive Summary

@@ -1,5 +1,5 @@
 ---
-title: "Rafli's Data Chronicles"
+title: "."
 listing:
   contents: posts
   sort: "date desc"
@@ -10,11 +10,9 @@ listing:
 page-layout: full
 title-block-banner: true
 title-block-banner-image: profile.jpg
-title-block-banner-color: "transparent"
 ---
+# <u>Featured Posts:</u><br><br>
 
-
-# <u>Featured Posts:</u>
 
 
 

@@ -1,0 +1,94 @@
+---
+title: "How are Different Publishing Platforms Affect the Way We Communicate?"
+description: |
+  We break down the way to communicate our findings, writing, and supporting references around different types of platform to publish an article.
+date: "2024-09-03"
+categories: [journalism, communication, tips]
+title-block-banner: false
+format:
+  html:
+    toc: true
+    toc_float: true
+    fig-align: center
+    number-sections: false
+---
+
+We need to put attention to our choice of communication format when writing or constructing an article, because it should align with the specific goals of the writer and the needs of the target audience. By understanding the strengths and limitations of each format, communicators can effectively convey their message and engage their intended audience. We're learning from three different types of platform below.
+
+![Illustration from Wix Image Generator](images/article.png){width=600, height=400}
+
+
+## 1. Print Media
+
+A recent article from The Guardian explores the growing concern over Amazon delivery hubs and their potential negative effects on local communities. The piece, titled ["Are Amazon delivery hubs making neighborhoods less healthy and more dangerous?",](https://www.theguardian.com/technology/2022/nov/20/amazon-warehouse-new-york-brooklyn-red-hook) delves into the complex issues surrounding these facilities and their impact on urban areas.
+
+Despite being published online, this article falls under the category of _print media_. It adheres to traditional journalistic standards and is produced by professional reporters for The Guardian's official website. The article's focus is on how Amazon's expanding network of delivery hubs might be compromising the health and safety of nearby residents.
+
+The story begins with a bold statement highlighting the efforts of Brooklyn residents to monitor air quality and traffic patterns in response to new warehouses in their area. This opening effectively captures the reader's attention and introduces the central theme of the article.
+
+As the piece unfolds, it provides context on the proliferation of Amazon delivery hubs and their increasing presence in urban settings. The article emphasizes the importance of understanding how these facilities affect communities, particularly in terms of increased traffic, pollution, and noise levels.
+
+The narrative then shifts to the specific case of Red Hook, Brooklyn, where opposition from local residents has become a significant factor in the ongoing debate. The article details how new Amazon facilities have led to worsening air quality and increased traffic congestion, prompting residents and local advocates to take action by monitoring these changes themselves.
+
+This focus on Red Hook serves as a microcosm of the larger issue, illustrating the direct impact of Amazon's expansion on local neighborhoods. By presenting the story from the perspective of affected residents, the article effectively conveys the human cost of this rapid industrial growth.
+
+Towards the end, the piece discusses potential solutions and regulatory changes being considered in response to these challenges. These include proposed new zoning rules and legislation aimed at controlling the expansion of last-mile delivery hubs and mitigating their impact on residential areas.
+
+The article concludes by emphasizing the ongoing efforts to address the negative effects of these facilities on local communities and the environment. It highlights the complex balance between economic development and community well-being, leaving readers with a comprehensive understanding of the multifaceted issues surrounding Amazon's urban delivery hubs.
+
+Throughout the piece, the author maintains a balanced approach, presenting various perspectives and allowing readers to form their own opinions on this pressing urban development issue. By doing so, the article serves as a valuable resource for a wide range of readers, from concerned citizens to policymakers, seeking to understand the evolving landscape of e-commerce and its impact on urban life.
+
+
+## 2. Blog Post
+
+The article ["Dear Mona, What's The Most Common Name In America?"](https://fivethirtyeight.com/features/whats-the-most-common-name-in-america/) from FiveThirtyEight delves into the complexities of determining the most prevalent names in the United States. This digital media piece, part of the "Dear Mona" column, combines investigative reporting with data analysis to provide a nuanced perspective on name frequency.
+
+The article begins with a question about the most common name in America, setting the stage for an in-depth exploration. The lede, found in the second paragraph, states: "To get you an answer, my colleague Andrew Flowers and I tried a more sophisticated technique that reached a different conclusion: We think the most common name in America might very well be James Smith. Here's how we got there."
+
+The piece then delves into the challenges of analyzing name frequencies, explaining the methodologies used to collect and process data on first names and surnames. It addresses limitations and factors such as immigration and demographic changes, providing crucial context for understanding why certain names may seem more or less common.
+
+The authors emphasize the need for a more refined approach, considering demographic and social factors in their analysis. This nuanced methodology reveals significant shifts in name rankings, highlighting the importance of accurate data interpretation. The article uses graphs to illustrate the results of their data analysis, making complex information more accessible to readers.
+
+One key finding is that "James Smith" ranks higher than "Michael Smith" when adjusting for demographic and name correlation factors. Additionally, the study shows that "Maria Garcia" is significantly more common—700 percent more than initially estimated—due to these adjustments.
+
+The article concludes by underscoring the challenges in accurately determining name frequencies and the necessity for refined methodologies to capture true name distributions. It highlights the complexities involved in such analyses and the potential for surprising results when considering various demographic factors.
+
+Throughout the piece, the authors maintain a casual yet informative tone, making the content accessible to a wide range of readers. The article's structure, while not as rigid as traditional print media, still includes all components of thorough reporting and data analysis.
+
+By exploring this seemingly simple question about common names, the article sheds light on broader issues of demographics, data analysis, and the changing face of American society. It demonstrates how even seemingly straightforward questions can lead to complex and insightful investigations, providing readers with a deeper understanding of the intricacies behind name frequency in the United States.
+
+The article further explores the impact of data processing methods on results. It emphasizes that by incorporating more adjustments and variables, the outcomes can change dramatically. This underscores the importance of refining formulas and methods to obtain the most accurate and representative results.
+
+The main findings of the study are presented near the end of the article. These revelations challenge previous assumptions about name frequencies in America. When accounting for various demographic adjustments, "James Smith" surpasses "Michael Smith" as the most common name combination. This shift highlights the significance of considering multiple factors in such analyses.
+
+Moreover, the study reveals that "Maria Garcia" is far more prevalent than initially thought. After applying adjustments for ethnicity and name correlations, this combination climbs to the 15th most common name in America. This finding underscores the importance of considering diverse demographic factors in name frequency studies.
+
+The article also sheds light on the methodological challenges involved in determining name frequencies. It points out the limitations of basic probability models and emphasizes the need for more sophisticated statistical adjustments to accurately reflect actual name distributions in the population.
+
+
+## 3. Presentation or Video
+
+Shifting focus, the article then discusses a video titled ["How did Australia's housing market get so bad, and is it all negative gearing's fault?"](https://www.youtube.com/watch?v=iqUFERBJwoY) from the Guardian Australia YouTube channel. This video effectively communicates complex data through visuals, narration, text, and audio elements, making the information more engaging and accessible to a broader audience.
+
+The video opens with a striking graph illustrating the growing gap between average income and house prices in Australia. This visual immediately captures the viewer's attention and sets the stage for the discussion. The introduction directly addresses the question of negative gearing's role in the housing market crisis.
+
+As the video progresses, it explores various factors contributing to Australia's housing market challenges. It explains negative gearing, a tax benefit for investors with rental losses, and how it can drive up property demand. The video also discusses changes in capital gains tax and their impact on making property investment more attractive.
+
+Through this comprehensive analysis, both the article and the video demonstrate how seemingly simple questions can lead to complex investigations, providing readers and viewers with deeper insights into name frequencies and housing market dynamics.
+
+The video delves deeper into the housing market crisis, highlighting a fundamental imbalance between supply and demand as another crucial factor. It points out a significant shortage of affordable housing options compared to the rising demand, particularly from the 5-minute mark onwards.
+
+The conclusion emphasizes the complexity of the housing market crisis, noting that while negative gearing plays a role, it's not the sole cause. Multiple factors contribute to this intricate issue, painting a more nuanced picture of the situation.
+
+The video's effectiveness lies in its use of visuals to reinforce its arguments. Graphs and charts illustrate trends in house prices, income, and investment activity, making complex data more digestible. Interviews with experts provide valuable insights and perspectives, adding depth to the discussion.
+
+Overall, the video's strength is its ability to present complex information clearly and engagingly. By combining visuals, narration, and expert interviews, it makes the topic accessible to a wide audience. The video provides a well-rounded understanding of the Australian housing market crisis by exploring various factors and avoiding oversimplification.
+
+
+## Key Takeaways
+
+When comparing different communication formats, each offers unique advantages. Print media allows for in-depth analysis and detailed explanations, often using a more formal writing style with citations. Blog posts tend to be more conversational, offering a personal touch while still incorporating data and analysis in an accessible way. Videos, like the one discussed, can combine visuals, narration, and interviews to present information dynamically and engagingly.
+
+Each format has its strengths and weaknesses. Print media offers credibility and depth but may be less engaging and have limited reach compared to digital formats. Blog posts are accessible and engaging but may offer less rigorous analysis. Videos can effectively convey complex information visually and capture attention but may have limited time for in-depth analysis.
+
+Choosing the right format depends on the content and target audience. Print media suits in-depth analysis of complex topics. Blog posts effectively engage a broad audience with accessible information. Videos are ideal for capturing attention, explaining complex topics visually, and reaching a wide online audience.
