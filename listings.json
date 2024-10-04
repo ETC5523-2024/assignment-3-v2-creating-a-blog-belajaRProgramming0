@@ -1,0 +1,16 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/posts/welcome/sport.html",
+      "/posts/welcome/breakdownarticle.html"
+    ]
+  },
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/posts/welcome/sport.html",
+      "/posts/welcome/breakdownarticle.html"
+    ]
+  }
+]
