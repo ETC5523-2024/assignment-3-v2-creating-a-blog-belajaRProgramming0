@@ -3,6 +3,7 @@ title: "How are Different Publishing Platforms Affect the Way We Communicate?"
 description: |
   We break down the way to communicate our findings, writing, and supporting references around different types of platform to publish an article.
 date: "2024-09-03"
+author: Rafli Ramdani
 categories: [journalism, communication, tips]
 title-block-banner: false
 format:
