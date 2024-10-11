@@ -6,6 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Rafli Ramdani">
 <meta name="dcterms.date" content="2024-09-04">
 <meta name="description" content="An analysis on relationship between sports’ main attribute requirement with their athletes’ peak performance age.">
 
@@ -138,10 +139,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#executive-summary" id="toc-executive-summary" class="nav-link active" data-scroll-target="#executive-summary">Executive Summary</a></li>
-  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a></li>
-  <li><a href="#methods" id="toc-methods" class="nav-link" data-scroll-target="#methods">Methods</a></li>
-  <li><a href="#results-and-analysis" id="toc-results-and-analysis" class="nav-link" data-scroll-target="#results-and-analysis">Results and Analysis</a></li>
+  <li><a href="#problem-description" id="toc-problem-description" class="nav-link active" data-scroll-target="#problem-description">Problem Description</a></li>
+  <li><a href="#data-description" id="toc-data-description" class="nav-link" data-scroll-target="#data-description">Data Description</a></li>
+  <li><a href="#analysis" id="toc-analysis" class="nav-link" data-scroll-target="#analysis">Analysis</a></li>
   <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
@@ -169,6 +169,12 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Rafli Ramdani </p>
+          </div>
+  </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
@@ -191,28 +197,25 @@ ul.task-list li input[type="checkbox"] {
 <figcaption>Men’s Speed Climbing Gold Medalist of Olympics 2024, Veddriq Leonardo, (8/8/2024). ANTARA FOTO/Wahyu Putro A.</figcaption>
 </figure>
 </div>
-<section id="executive-summary" class="level1">
-<h1>Executive Summary</h1>
-<p>This report analyses the relationship between the peak and average ages of Olympic athletes across various sports, categorised by primary attributes like <strong>flexibility</strong>, <strong>endurance</strong>, <strong>analytic aptitude</strong> and more. Using data from ESPN’s toughest sports rankings and Olympic data spanning 1948 to 2016, the findings reveal how these attributes influence athletes’ career longevity. Specifically, sports relying on flexibility tend to see peak performances in athletes in their early 20s, whereas sports requiring strong analytic aptitude have athletes peaking closer to their 30s. These insights are valuable for optimising training strategies and athlete development programs for both aspiring Olympians and sports stakeholders.</p>
+<p>Have you ever wondered why Olympic gymnasts tend to be in their early 20s, while athletes in other Olympic sports, like shooting, are often much older on average?</p>
+<p>The answer lies in the unique demands of each sport—whether it’s flexibility, endurance, mental sharpness, or other attributes. By analyzing modern Olympic data from the 1948 edition, which marked the rise of athletics sprinting as arguably the most iconic event, to the 2016 Rio edition, combined with ESPN’s toughest sports rankings, we can uncover how different key attributes shape an athlete’s career longevity. These findings provide valuable insights for developing training strategies that can help aspiring Olympians reach their full potential.</p>
+<section id="problem-description" class="level2">
+<h2 class="anchored" data-anchor-id="problem-description">Problem Description</h2>
+<p>The Olympic Games showcase athletes performing at their best, both physically and mentally, across a wide range of sports. In this post, we’ll look at the trends in peak and average ages of Olympians, focusing on how key traits like flexibility, endurance, mental toughness, and strategy impact these patterns. Understanding these trends can help coaches fine-tune their training plans and extend athletes’ careers. By grouping sports based on their main physical and mental demands, we can uncover new insights into how different challenges shape an athlete’s journey.</p>
+<p>The age at which athletes hit their peak varies significantly depending on the sport and its demands. Knowing this can be valuable for aspiring Olympians and their trainers, helping them decide when to start specialized training and when to aim for competition. This insight also helps coaches create better training routines so athletes can hit their prime at just the right time. It also aids coaches and trainers in designing more effective regimens, ensuring athletes reach their full potential at the optimal time.</p>
 </section>
-<section id="introduction" class="level1">
-<h1>Introduction</h1>
-<p>The Olympic Games highlight athletes’ peak physical and mental performances across various disciplines. This report examines patterns in the peak and average ages of Olympians, exploring how attributes like flexibility, nerve, endurance, and analytic aptitude shape these trends. Understanding these patterns can help refine coaching strategies, optimise training programs, and extend athletes’ careers. Grouping sports by their primary attributes offers new insights into how both physical and mental demands influence career trajectories <a href="https://doi.org/10.24018/ejsport.2023.2.5.100">De Bosscher, etc, 2023.</a></p>
-<p>The age at which athletes peak varies greatly depending on the sport and its required attributes. This knowledge is valuable for aspiring Olympians and those guiding athletes, helping them identify when to begin focused training and prepare for competition. It also aids coaches and trainers in designing more effective regimens, ensuring athletes reach their full potential at the optimal time.</p>
-</section>
-<section id="methods" class="level1">
-<h1>Methods</h1>
+<section id="data-description" class="level2">
+<h2 class="anchored" data-anchor-id="data-description">Data Description</h2>
 <p>The analysis combines two datasets:</p>
-<ol type="1">
-<li><p>ESPN Toughest Sports: This dataset ranks 60 sports across 10 skill categories: <strong>endurance (END)</strong>, <strong>strength (STR)</strong>, <strong>power (PWR)</strong>, <strong>speed (SPD)</strong>, <strong>agility (AGI)</strong>, <strong>flexibility (FLX)</strong>, <strong>nerve (NER)</strong>, <strong>durability (DUR)</strong>, <strong>hand-eye coordination (HAN)</strong>, <strong>analytic aptitude (ANA)</strong>. Each category reflects the unique demands placed on athletes in their respective sports, allowing for a comprehensive understanding of how these attributes correlate with age.</p></li>
-<li><p>Olympic Data: This dataset is collected from Kaggle, from user Bhanupratap Biswas, includes information on every athlete who competed in the Olympics from the 1896 edition to the 2016 edition summer and winter. The analysis focuses on data from 1948-2016 to align with the era of the <em>modern olympics games.</em></p></li>
-<li><p>Data Processing Steps: Read raw dataset; cleaning symbols, unused variable, name manipulation; join the two data; plotting.</p></li>
-</ol>
-<p><em>Note: Complete data dictionary is available in Appendix A, involving all variables.</em></p>
+<ul>
+<li><p><a href="https://www.espn.com/espn/page2/sportSkills">ESPN Toughest Sports:</a> This dataset ranks 60 sports across 10 skill categories: <strong>endurance (END)</strong>, <strong>strength (STR)</strong>, <strong>power (PWR)</strong>, <strong>speed (SPD)</strong>, <strong>agility (AGI)</strong>, <strong>flexibility (FLX)</strong>, <strong>nerve (NER)</strong>, <strong>durability (DUR)</strong>, <strong>hand-eye coordination (HAN)</strong>, <strong>analytic aptitude (ANA)</strong>. Each category reflects the unique demands placed on athletes in their respective sports, allowing for a comprehensive understanding of how these attributes correlate with age.</p></li>
+<li><p><a href="https://www.kaggle.com/datasets/bhanupratapbiswas/olympic-data">Olympic Data:</a> This dataset is collected from Kaggle, from user Bhanupratap Biswas, includes information on every athlete who competed in the Olympics from the 1896 edition to the 2016 edition summer and winter, including their profile, event participation, olympic commitee represented. This time, however, we focus on data from 1948-2016 to align with the era of the <em>modern olympics games.</em></p></li>
+<li><p><strong>Data Processing Steps:</strong> Firstly, we read raw dataset file; followed by clean symbols and unused variables, name manipulation (especially handle the difference of country name); join the two data (the output will contain variable of attributes’ scoring system); lastly plot the data divided by their main physical or mental demand.</p></li>
+</ul>
 </section>
-<section id="results-and-analysis" class="level1">
-<h1>Results and Analysis</h1>
-<p>The way we want to extract information in this report is by using two plots, one for the overall average age of each sports attrbute and following by showing the boxplot to see the distribution of each sport category faceted by sport attribute, we will analyse the trend and dig deeper into some sports category with interesting pattern.</p>
+<section id="analysis" class="level2">
+<h2 class="anchored" data-anchor-id="analysis">Analysis</h2>
+<p>To break down the data, we’ll use two key visuals. First, we’ll look at a plot showing the overall average age for each sport’s main attribute. Then, we’ll dive deeper with boxplots that show how the ages are distributed within each sport category, grouped by attribute. This will help us spot trends and explore some sports with particularly interesting patterns.</p>
 <div class="cell">
 <div id="tbl-avgage" class="cell quarto-float anchored">
 <figure class="quarto-float quarto-float-tbl figure">
@@ -224,7 +227,6 @@ Table&nbsp;1: Average Age of Athletes per Sports’ Primary Attribute.
 <div>
 <div class="table-responsive">
 <table class="table table-striped table-hover table-condensed do-not-create-environment cell table-sm small" data-quarto-postprocess="true">
-<caption>Average Age of Athletes per Sports' Primary Attribute.</caption>
 <thead>
 <tr class="header">
 <th data-quarto-table-cell-role="th" style="text-align: center; font-weight: bold; color: white !important; background-color: rgba(76, 175, 80, 255) !important;">Primary_Attribute</th>
@@ -295,7 +297,8 @@ Table&nbsp;1: Average Age of Athletes per Sports’ Primary Attribute.
 </div>
 </div>
 <p><a href="#tbl-avgage" class="quarto-xref">Table&nbsp;1</a> shows the average age of athletes per sports’ primary attribute. Sports requiring <em>Flexibilty</em> tend to have participant of the averaging at the early 20s, while those requiring <em>Analytical Aptitude,</em> reached 32 years old.</p>
-<p>In order to get more insight, boxplot is choosen due to its ability to contain information such as Median, Average, Inter quartile range, and outliers. These features allows us to see the Peak Age and Career longevity of each sports.</p>
+<p>These findings align with previous research on athletic performance and aging. For instance, a study by <a href="https:doi.org//10.1007/s11357-011-9274-9">Berthelot et al.&nbsp;(2012)</a> found that the age of peak performance varies significantly across different sporting events, supporting our observations.</p>
+<p>After we know the general idea of the distribution between category, let’s dive deeper to get more insight by using boxplot to depict each sport events. Boxplot is choosen to be used, due to its ability to contain information such as <em>Median</em>, <em>Average</em>, <em>Inter Quartile Range</em>, and <em>Outliers</em>. These features allows us to see the <strong>Peak Age</strong> and <strong>Career longevity</strong> of each sports.</p>
 <div class="cell">
 <div class="cell-output-display">
 <div id="fig-boxplottop1attr" class="quarto-figure quarto-figure-center quarto-float anchored">
@@ -341,18 +344,137 @@ Figure&nbsp;3: Age Distribution by Top Attributes (Strength and Durability).
 <p>The analysis further reveals that sports relying on endurance and nerve also see higher average ages, indicating longer careers for athletes in these disciplines.</p>
 <p>Athletics, even though categorised as one by the olympic body (IOC), in reality has different primary attribute demands according to the events. For example, <em>Athletics_LongDistance</em> in <a href="#fig-boxplottop1attr" class="quarto-xref">Figure&nbsp;1</a> that includes sport disciplines of more than 3.000 m distance requires <strong>endurance</strong> the most, in contrast to majority of other athletics category require <strong>power</strong> the most.</p>
 <p>Looking at each primary attribute categories, interestingly, <em>Shooting</em> and <em>Equestrianism</em> on <a href="#fig-boxplottop1attr2" class="quarto-xref">Figure&nbsp;2</a> has the age distribution much older than its friend in the same category, reaching 30s. This means that to become an athlete of the</p>
-<p>Sports that primarily rely on Analytics skill, tend to have longer career span, of more than 10 years. This number is way above average of 4-5 years in other categories (seen on three figures), excluding sports with main attribute of <em>Handling.</em></p>
+<p>Sports that primarily rely on Mental Attributes than Physical Attributes (such as analytics skill and nerve), tend to have a longer career span, reaching more than 10 years. This number is way above average of 4-5 years in other categories (seen on three figures), excluding sports with main attribute of <em>Handling.</em> However, the ESPN thoughest sports dataset also uncover that there are several sports considered the hardest, these sports rely on more than one primary attributes, as shown at table below.</p>
+<div class="cell">
+<div id="tbl-top5" class="cell quarto-float anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-top5-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;2: The Thoughest Sports according to ESPN Scoring.
+</figcaption>
+<div aria-describedby="tbl-top5-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell-output-display">
+<div>
+<div class="table-responsive">
+<table class="table table-striped table-hover table-condensed do-not-create-environment cell table-sm small" data-quarto-postprocess="true">
+<thead>
+<tr class="header">
+<th style="text-align: center;" data-quarto-table-cell-role="th">SPORT</th>
+<th style="text-align: center;" data-quarto-table-cell-role="th">END</th>
+<th style="text-align: center;" data-quarto-table-cell-role="th">STR</th>
+<th style="text-align: center;" data-quarto-table-cell-role="th">PWR</th>
+<th style="text-align: center;" data-quarto-table-cell-role="th">SPD</th>
+<th style="text-align: center;" data-quarto-table-cell-role="th">AGI</th>
+<th style="text-align: center;" data-quarto-table-cell-role="th">FLX</th>
+<th style="text-align: center;" data-quarto-table-cell-role="th">NER</th>
+<th style="text-align: center;" data-quarto-table-cell-role="th">DUR</th>
+<th style="text-align: center;" data-quarto-table-cell-role="th">HAN</th>
+<th style="text-align: center;" data-quarto-table-cell-role="th">ANA</th>
+<th style="text-align: center;" data-quarto-table-cell-role="th">TOTAL</th>
+<th style="text-align: center;" data-quarto-table-cell-role="th">RANK</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">Boxing</td>
+<td style="text-align: center;">8.63</td>
+<td style="text-align: center;">8.13</td>
+<td style="text-align: center;">8.63</td>
+<td style="text-align: center;">6.38</td>
+<td style="text-align: center;">6.25</td>
+<td style="text-align: center;">4.38</td>
+<td style="text-align: center;">8.88</td>
+<td style="text-align: center;">8.50</td>
+<td style="text-align: center;">7.00</td>
+<td style="text-align: center;">5.63</td>
+<td style="text-align: center;">72.375</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Ice Hockey</td>
+<td style="text-align: center;">7.25</td>
+<td style="text-align: center;">7.13</td>
+<td style="text-align: center;">7.88</td>
+<td style="text-align: center;">7.75</td>
+<td style="text-align: center;">7.63</td>
+<td style="text-align: center;">4.88</td>
+<td style="text-align: center;">6.00</td>
+<td style="text-align: center;">8.25</td>
+<td style="text-align: center;">7.50</td>
+<td style="text-align: center;">7.50</td>
+<td style="text-align: center;">71.750</td>
+<td style="text-align: center;">2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Football</td>
+<td style="text-align: center;">5.38</td>
+<td style="text-align: center;">8.63</td>
+<td style="text-align: center;">8.13</td>
+<td style="text-align: center;">7.13</td>
+<td style="text-align: center;">6.38</td>
+<td style="text-align: center;">4.38</td>
+<td style="text-align: center;">7.25</td>
+<td style="text-align: center;">8.50</td>
+<td style="text-align: center;">5.50</td>
+<td style="text-align: center;">7.13</td>
+<td style="text-align: center;">68.375</td>
+<td style="text-align: center;">3</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Basketball</td>
+<td style="text-align: center;">7.38</td>
+<td style="text-align: center;">6.25</td>
+<td style="text-align: center;">6.50</td>
+<td style="text-align: center;">7.25</td>
+<td style="text-align: center;">8.13</td>
+<td style="text-align: center;">5.63</td>
+<td style="text-align: center;">4.13</td>
+<td style="text-align: center;">7.75</td>
+<td style="text-align: center;">7.50</td>
+<td style="text-align: center;">7.38</td>
+<td style="text-align: center;">67.875</td>
+<td style="text-align: center;">4</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Wrestling</td>
+<td style="text-align: center;">6.63</td>
+<td style="text-align: center;">8.38</td>
+<td style="text-align: center;">7.13</td>
+<td style="text-align: center;">5.13</td>
+<td style="text-align: center;">6.38</td>
+<td style="text-align: center;">7.50</td>
+<td style="text-align: center;">5.00</td>
+<td style="text-align: center;">6.75</td>
+<td style="text-align: center;">4.25</td>
+<td style="text-align: center;">6.38</td>
+<td style="text-align: center;">63.500</td>
+<td style="text-align: center;">5</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+
+</div>
+</div>
+</div>
+</figure>
+</div>
+</div>
+<p>We can see that for <strong>Boxing</strong> the attribute demands are spread evenly, meaning to be a top boxing athlete, the person should possess almost all physical excellence, except only flexibility and also prowess in handling pressure (nerve) and power (durability). <strong>Ice hockey</strong> demands every aspect, except flexibility. This is make sense because the game require teamwork, understand strategy, adapt to the opponent’s move, speed, and stamina.</p>
 </section>
-<section id="conclusion" class="level1">
-<h1>Conclusion</h1>
-<p>The analysis reveals distinct age patterns among Olympic athletes, with younger athletes excelling in flexibility-driven sports and older athletes performing better in analytical and nerve-based disciplines. By examining data from the ESPN Toughest Sports rankings and Olympic data from 1948 to 2016, we can appreciate the diverse demands of different sports and the unique career trajectories of Olympic athletes. The analysis of peak and average ages further highlights how the primary attributes required for success—such as flexibility, nerve, and analytic aptitude—shape these patterns, with younger athletes dominating flexibility-based sports and older athletes excelling in more mentally demanding disciplines.</p>
-<p>These insights underscore the need for tailored training programs that align with athletes’ physiological development and the specific demands of their sports, thereby enhancing performance and extending athletic careers. By recognizing these patterns, coaches, trainers, and other stakeholders in the sports community can better support athletes’ development, ensuring that they reach their full potential at the right time. Career longevity is also an important consideration when selecting which sports to pursue, and understanding these patterns helps optimize training strategies and career planning for all involved in an athlete’s journey.</p>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>Our analysis uncovers clear age patterns among Olympic athletes, showing that younger athletes tend to excel in flexibility-driven sports, while older athletes thrive in sports that require mental sharpness and nerves of steel. By examining data from the 1948 to 2016 Olympics alongside ESPN’s Toughest Sports rankings, we get a deeper understanding of how different physical and mental demands shape an athlete’s career path.</p>
+<p>The data highlights how key attributes—like flexibility, mental toughness, and strategy—impact when athletes peak. For example, sports that prioritize flexibility tend to favor younger competitors, while those that require experience and quick decision-making see older athletes performing at their best.</p>
+<p>These insights are invaluable for coaches, trainers, and athletes themselves. By aligning training programs with an athlete’s natural development and the specific demands of their sport, they can maximise performance and extend careers. Recognising these patterns can also help athletes and their support teams make more informed decisions about when to focus on certain aspects of training and which sports may offer greater career longevity.</p>
+<p>In the end, understanding how age and athletic attributes intersect can help future Olympians reach their full potential, while also shaping smarter training strategies and career planning for all involved.</p>
 <div style="page-break-after: always;"></div>
 </section>
-<section id="references" class="level1">
-<h1>References</h1>
-<p>ESPN. (2021). Degree of difficulty: Ranking the toughest sports. ESPN. Retrieved from <a href="https://www.espn.com/espn/page2/sportSkills">https://www.espn.com/espn/page2/sportSkills</a></p>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<p>Berthelot, et al.&nbsp;(2012). Exponential growth combined with exponential decline explains lifetime performance evolution in individual and human species. Age, 34, 1001-1009. <a href="https://doi.org/10.1007/s11357-011-9274-9">https://doi.org/10.1007/s11357-011-9274-9</a></p>
 <p>De Bosscher, V., Descheemaeker, K., &amp; Shibli, S. (2023). Starting and specialisation ages of elite athletes across Olympic sports: An international cross-sectional study. European Journal of Sport Sciences. <a href="https://doi.org/10.24018/ejsport.2023.2.5.100">https://doi.org/10.24018/ejsport.2023.2.5.100</a></p>
+<p>ESPN. (2021). Degree of difficulty: Ranking the toughest sports. ESPN. Retrieved from <a href="https://www.espn.com/espn/page2/sportSkills">https://www.espn.com/espn/page2/sportSkills</a></p>
 <p>Longo, A. F., Siffredi, C. R., Cardey, M. L., Aquilino, G. D., &amp; Lentini, N. A. (2020). Age of peak performance in Olympic sports: A comparative research among disciplines. Journal of Sports Sciences, 11(1), 141-152. <a href="https://doi.org/10.14198/jhse.2016.111.03">https://doi.org/10.14198/jhse.2016.111.03</a></p>
 
 
